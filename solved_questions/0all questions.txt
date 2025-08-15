@@ -1,0 +1,211 @@
+✅ Variables, Data Types & Operators (Q1–10)
+Assign values to x = 5 and y = 10. Print their sum.
+Expected Output: 15
+
+What is the type of 5.0?
+Expected Output: <class 'float'>
+
+Convert 7.9 to an integer.
+Expected Output: 7
+
+What will be the output of 3 ** 2?
+Expected Output: 9
+
+Assign name = "Alice" and age = 25. Print: "Alice is 25 years old."
+Expected Output: Alice is 25 years old.
+
+Check whether 15 is divisible by 3. Print True or False.
+Expected Output: True
+
+Swap two numbers: a = 10, b = 20. Print after swap.
+Expected Output:
+
+ini
+Copy
+Edit
+a = 20  
+b = 10
+Find the remainder when 17 is divided by 4.
+Expected Output: 1
+
+Check the result of 10 != 20.
+Expected Output: True
+
+Use floor division: 17 // 3
+Expected Output: 5
+
+🧮 Input & Output (Q11–17)
+Take input: name. Print "Hello, <name>!"
+Input: John
+Expected Output: Hello, John!
+
+Take input of two numbers and print their sum.
+Input: 4, 6
+Expected Output: 10
+
+Take a float input and print its square.
+Input: 2.5
+Expected Output: 6.25
+
+Ask for user's birth year. Calculate age assuming current year is 2025.
+Input: 2000
+Expected Output: 25
+
+Input radius. Calculate area of circle. (Area = πr², π = 3.14)
+Input: 3
+Expected Output: Area: 28.26
+
+Take name and age as input. Print: "<name> will be 30 in <years> years."
+Input: Sara, 22
+Expected Output: Sara will be 30 in 8 years.
+
+Take integer input and print if it's even or odd.
+Input: 7
+Expected Output: Odd
+
+🔁 Conditional Statements (Q18–25)
+Check if a number is positive, negative, or zero.
+Input: -5
+Expected Output: Negative
+
+Input two numbers, print the larger one.
+Input: 5, 12
+Expected Output: 12 is greater
+
+Input marks. Print Grade: >=90: A, >=80: B, >=70: C, else: F
+Input: 82
+Expected Output: Grade: B
+
+Check if a number is divisible by both 3 and 5.
+Input: 15
+Expected Output: Yes
+
+Check whether a character is a vowel or not.
+Input: e
+Expected Output: Vowel
+
+Take year as input. Check if it's a leap year.
+Input: 2024
+Expected Output: Leap year
+
+Check if three sides can form a triangle (sum of any 2 sides > third).
+Input: 3, 4, 5
+Expected Output: Can form a triangle
+
+Input username and password. Allow access if both are correct.
+Input: admin, 1234
+Expected Output: Access granted
+
+🔤 Strings (Q26–35)
+Reverse the string "Python".
+Expected Output: nohtyP
+
+Count number of vowels in a string.
+Input: hello world
+Expected Output: 3
+
+Check if the string is a palindrome.
+Input: madam
+Expected Output: Palindrome
+
+Convert string to uppercase.
+Input: python
+Expected Output: PYTHON
+
+Replace spaces with dashes in "Python is fun".
+Expected Output: Python-is-fun
+
+Extract first 5 characters from "Programming".
+Expected Output: Progr
+
+Concatenate two strings: “Hello” and “World”
+Expected Output: HelloWorld
+
+Check if "code" is in "coding is fun".
+Expected Output: True
+
+Find the length of the string "Data Science".
+Expected Output: 12
+
+Print each character of a string on a new line.
+Input: Hi
+Expected Output:
+
+css
+Copy
+Edit
+H  
+i
+🔁 Loops (Q36–50)
+Print numbers from 1 to 5 using for loop.
+Expected Output: 1 2 3 4 5
+
+Print even numbers from 1 to 10.
+Expected Output: 2 4 6 8 10
+
+Calculate factorial of a number (e.g., 5!).
+Input: 5
+Expected Output: 120
+
+Print multiplication table of 3.
+Expected Output:
+
+python-repl
+Copy
+Edit
+3 x 1 = 3  
+3 x 2 = 6  
+...  
+3 x 10 = 30
+Sum all numbers from 1 to 100.
+Expected Output: 5050
+
+Print each character of a string using loop.
+Input: code
+Expected Output:
+
+r
+Copy
+Edit
+c  
+o  
+d  
+e
+Count how many times 'a' appears in a string.
+Input: banana
+Expected Output: 3
+
+Print numbers from 10 to 1 using while loop.
+Expected Output: 10 9 8 7 6 5 4 3 2 1
+
+Check if a number is prime.
+Input: 7
+Expected Output: Prime
+
+Find the sum of digits of a number (e.g., 123).
+Input: 123
+Expected Output: 6
+
+Print Fibonacci series up to 7 terms.
+Expected Output: 0 1 1 2 3 5 8
+
+Find all multiples of 3 between 1 and 20.
+Expected Output: 3 6 9 12 15 18
+
+Print star pattern of 4 rows:
+Expected Output:
+
+markdown
+Copy
+Edit
+*  
+**  
+***  
+****
+Reverse digits of a number using loop.
+Input: 1234
+Expected Output: 4321
+
+Check if a number is an Armstrong number (e.g., 153).
+Expected Output: Armstrong
+
