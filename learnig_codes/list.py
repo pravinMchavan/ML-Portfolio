@@ -197,7 +197,7 @@ list2 = ['a', 'b']
 # print(final_list)
 
 
-#----------List iterartion -----------
+#----------List iteration -----------
 fruits = ['apple', 'mang', 'cherry']
 # for fruit in fruits:
 #     print(fruit)
