@@ -69,14 +69,131 @@
 
 
 
-class work:
-        def __init__(self, clean, wash, scrub):
-            self.clean = clean
-            self.wash = wash
-            self.scrub = scrub
+# class work:
+#         def __init__(self, clean, wash, scrub):
+#             self.clean = clean
+#             self.wash = wash
+#             self.scrub = scrub
     
-        def person(self):
-            print(f"pravin will {self.clean} ramesh will {self.wash} and suman will {self.scrub}")
+#         def person(self):
+#             print(f"pravin will {self.clean} ramesh will {self.wash} and suman will {self.scrub}")
 
-worker = work("clean home,", "wash cloths", "scrub dishes,")
-worker.person()
+# worker = work("clean home,", "wash cloths", "scrub dishes,")
+# worker.person()
+
+
+
+#--------------4. Features in oops------------
+#Abstraction
+#Encapsulation
+#Inheritance
+#Polymorphism
+
+
+
+#------------F1--Abstraction-------------------
+
+# Abstraction is hiding unnecesarry details from users through classes, methods 
+
+
+# class Student:
+#     def __init__(self, name, grade, percentage, ): 
+#         self.name = name
+#         self.grade = grade 
+#         self.percentage= percentage 
+#     def student_details(self):  #method / abstraction
+#         print(f"{self.name} is in class {self.grade} and he got {self.percentage + 2} %") # abstraction/ hidden from user
+
+# student1 = Student('Pravin', 11, 95, )
+# student2 = Student('vidya', 12, 95, )
+# # print(student1.name, student1.grade, student1.team)
+
+# student1.student_details() 
+# student2.student_details()
+
+
+#------------F2--Encapsulation-------------------
+#Restricted or prvate access to certain attributes or methods to protect data and enforce controlled access
+
+# class Student:
+#     def __init__(self, name, grade, percentage, ): 
+#         self.name = name
+#         self.grade = grade 
+#         self.__percentage= percentage #private #using double underscore __ to make private
+# #to access private class we can make method
+#     def get_percentage(self):
+#         return self.__percentage
+
+# student1 = Student('Pravin', 11, 95, )
+# student2 = Student('vidya', 12, 95, )
+
+# #calling private method
+# print(student1.get_percentage())
+
+
+
+
+#------------F3--Inheritance-------------------
+#allows one class (child) to reuse the prop and methods of another class (parent).
+
+# class Student: #parent class
+#     def __init__(self, name, grade, percentage, ): 
+#         self.name = name
+#         self.grade = grade 
+#         self.percentage= percentage 
+#     def student_details(self):  #method / abstraction
+#             print(f"{self.name} is in class {self.grade} and he got {self.percentage + 2} %")
+  
+# student1 = Student('Pravin', 11, 95, )
+# student2 = Student('vidya', 12, 95, )
+
+
+# class GraduateStudent(Student):  #GraduateStudent child class inherit properties and methods from Student Parent class
+#     def __init__(self, name, grade, percentage, stream): #calling parameters fron parent class and adding new para in child class
+#         super().__init__(name, grade, percentage)# calling parent class init
+#         self.stream = stream #new atribute in child class
+
+#     def student_details(self):
+#                  super().student_details()
+       
+
+# Grad_Student1 = GraduateStudent('Rohit', 12, 96, 'PCM')
+
+# print(Grad_Student1.stream) #child class properties printing
+# print(student1.name) # parent class properties printing
+# Grad_Student1.student_details()
+
+
+
+
+#------------F4--Polymorphism-------------------
+#same method new but defferent output
+#allows method in defferent classes to have same name but difft behaviours
+
+class Student: #parent class
+    def __init__(self, name, grade, percentage, ): 
+        self.name = name
+        self.grade = grade 
+        self.percentage= percentage 
+    def student_details(self):  #method / abstraction
+            print(f"{self.name} is in class {self.grade} and he got {self.percentage + 2} %")
+  
+student1 = Student('Pravin', 11, 95, )
+student2 = Student('vidya', 12, 95, )
+
+
+class GraduateStudent(Student):  #child class
+    def __init__(self, name, grade, percentage, stream):
+        super().__init__(name, grade, percentage)
+        self.stream = stream 
+
+    def student_details(self):
+        # print(f"{self.name} is in class {self.grade} and he got {self.percentage + 2} %")
+        print("same method defferent o/p")
+       
+
+Grad_Student1 = GraduateStudent('Rohit', 12, 96, 'PCM')
+
+student1.student_details()
+Grad_Student1.student_details()
+
