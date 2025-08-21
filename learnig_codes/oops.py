@@ -68,14 +68,15 @@
 # student2.student_details()
 
 
+
 class work:
-    def __init__(self, clean, wash, scrub):
-        self.clean = clean
-        self.wash = wash
-        self.scrub = scrub
+        def __init__(self, clean, wash, scrub):
+            self.clean = clean
+            self.wash = wash
+            self.scrub = scrub
     
-    def person(self):
-        print(f"pravin will {self.clean} ramesh will {self.wash} and suman will {self.scrub}")
+        def person(self):
+            print(f"pravin will {self.clean} ramesh will {self.wash} and suman will {self.scrub}")
 
 worker = work("clean home,", "wash cloths", "scrub dishes,")
 worker.person()
