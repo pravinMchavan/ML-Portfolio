@@ -24,4 +24,3 @@
 # print(intersection_list(list1, list2))
 
 #Q2. Find most frequent Element in a list
-
