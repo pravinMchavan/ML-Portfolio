@@ -1,9 +1,9 @@
 
 
-✅ Complete Machine Learning Roadmap
+Complete Machine Learning Roadmap
 📌 With Frameworks & Libraries Included
 ________________________________________
-🟢 Phase 1: Python Basics (✅ Already Done)
+🟢 Phase 1: Python Basics   ✅Done 
 Key Libraries to Start Learning (if not already):
 •	numpy – numerical operations (arrays, math)
 •	pandas – data manipulation (DataFrames, CSVs)
