@@ -1,0 +1,445 @@
+Total 188 questions inclusding all topics
+
+🏠 Python HOME / Intro / Syntax / Comments (8)
+1.	Write a function that prints: Welcome to Python!
+2.	Write a function with correct indentation that prints Hello, World!
+3.	Use a multi-line comment to explain what your function does.
+4.	Show how to write an inline comment using # in your code.
+5.	Create a function that prints the sum of 3 + 7.
+6.	Write a function that prints your name and the country you live in.
+7.	Create a function that prints a sentence explaining why Python is beginner-friendly.
+8.	Write a function that includes a docstring describing its purpose.
+________________________________________
+🧾 Python Variables (9)
+1.	Define a variable inside a function and print its value.
+2.	Write a function that swaps two variables and prints their values before and after swapping.
+3.	Create a function that returns two variables and print their returned values.
+4.	Show the difference between global and local variables by printing both inside a function.
+5.	Write a function that takes name and age as parameters and prints them.
+6.	Use the type() function to print the type of a given variable.
+7.	Concatenate a string and an integer by casting the integer to a string, then print the result.
+8.	Write a function that increments a counter variable and prints the updated value.
+9.	Create a function that uses constants (variables in UPPER_CASE) and prints their values.
+________________________________________
+🔢 Python Data Types / Numbers / Casting (9)
+1.	Write a function that takes and prints variables of types: int, float, string, bool.
+2.	Convert a float to an int and an int to a float, then print both results.
+3.	Add two numbers input as strings by converting them to integers first, then print the sum.
+4.	Use isinstance() to check if a variable is an integer or not, and print the result.
+5.	Convert a number to a string and concatenate it with another string, then print the output.
+6.	Demonstrate implicit type conversion by adding an integer and a float, then print the result.
+7.	Convert a string to a float and multiply it by 2, then print the result.
+8.	Round a float to 2 decimal places and print it.
+9.	Convert a negative number to its absolute value using abs() and print the result.
+________________________________________
+🧵 Python Strings (10)
+1.	Reverse a given string and print the result.
+2.	Check if a given string is a palindrome and print True or False.
+3.	Count the number of vowels and consonants in a string and print both counts.
+4.	Remove all spaces from a string and print the new string.
+5.	Replace all vowels in a string with * and print the modified string.
+6.	Split a sentence into words and print the list of words.
+7.	Convert a string to title case (capitalize first letter of each word) and print it.
+8.	Find and print the frequency of each character in a string.
+9.	Return and print the longest word in a sentence.
+10.	Join a list of words into a single string separated by spaces and print it.
+________________________________________
+✅ Python Booleans (8)
+1.	Write a function that returns True if a number is even, otherwise False.
+2.	Check if a list is empty and print True or False.
+3.	Compare two values and print the boolean result (True or False).
+4.	Use and, or, and not in logical expressions and print their results.
+5.	Check if a character is uppercase and print True or False.
+6.	Determine if a number is within a given range (e.g., 10 to 20) and print the result.
+7.	Return the opposite of a boolean input (True becomes False, and vice versa).
+8.	Return True if a string starts with the letter 'A', else False.
+________________________________________
+⚙️ Python Operators (8)
+1.	Write a function that adds, subtracts, and multiplies two numbers and prints the results.
+2.	Use modulus (%) and floor division (//) operators on two numbers and print the outputs.
+3.	Compare two values using relational operators and print the boolean results.
+4.	Use logical operators (and, or, not) in a condition and print the final result.
+5.	Demonstrate the identity operator (is) by comparing two variables and print the result.
+6.	Check if an element exists in a list using in and print True or False.
+7.	Perform bitwise AND and OR operations on two integers and print the results.
+8.	Write a simple calculator function that takes two numbers and an operator (+, -, *, /) and prints the result.
+🧾 Python Lists (10)
+1.	Write a function that takes a list of numbers and returns the sum.
+Example output: Sum: 45
+2.	Write a function that finds and returns the largest number in a list.
+Example output: Largest number: 98
+3.	Create a function that returns a sorted version of the list in ascending order.
+Example output: [1, 3, 5, 7, 9]
+4.	Write a function that removes duplicates from a list and prints the new list.
+Example output: [2, 4, 6]
+5.	Write a function to count even and odd numbers in a list and print the counts.
+Example output: Even: 3, Odd: 2
+6.	Create a function that returns the list reversed.
+Example output: [5, 4, 3, 2, 1]
+7.	Slice a list into two halves and print both halves separately.
+Example output:
+First half: [1, 2, 3]
+Second half: [4, 5, 6]
+8.	Write a function to append an element to a list and print the updated list.
+Example output: [1, 2, 3, 4]
+9.	Write a function to extend a list by another list and print the merged list.
+Example output: [1, 2, 3, 4, 5, 6]
+10.	Write a function that returns a list of squared values from the original list.
+Example output: [1, 4, 9, 16]
+________________________________________
+🔗 Python Tuples (8)
+1.	Write a function that takes a tuple and returns the maximum and minimum values.
+Example output: Max: 10, Min: 2
+2.	Convert a tuple to a list, append an element, then convert back to tuple and print it.
+Example output: (1, 2, 3, 4)
+3.	Write a function that counts how many times an item appears in a tuple and prints the count.
+Example output: Count of 3: 2
+4.	Check if an item exists in a tuple and print True or False.
+Example output: Item exists: True
+5.	Write a function to return the index of a specific item in a tuple.
+Example output: Index of 5: 3
+6.	Unpack a tuple into variables and print each variable.
+Example output:
+First: 1
+Second: 2
+Third: 3
+7.	Iterate over a tuple and print each element on a new line.
+Example output:
+a
+b
+c
+8.	Concatenate two tuples and print the result.
+Example output: (1, 2, 3, 4, 5)
+________________________________________
+🧺 Python Sets (8)
+1.	Write a function to add an item to a set and print the updated set.
+Example output: {1, 2, 3, 4}
+2.	Remove an item from a set and print the updated set.
+Example output: {2, 3, 4}
+3.	Find and print the union of two sets.
+Example output: {1, 2, 3, 4, 5}
+4.	Find and print the intersection of two sets.
+Example output: {2, 3}
+5.	Find and print the difference between two sets (items in set1 but not in set2).
+Example output: {1}
+6.	Check if one set is a subset or superset of another and print the result.
+Example output: Is subset: True
+Is superset: False
+7.	Convert a list with duplicates into a set and print unique elements.
+Example output: {1, 2, 3}
+8.	Write a function that returns only the unique elements from a list and prints them.
+Example output: [4, 5, 6]
+________________________________________
+🗂️ Python Dictionaries (10)
+1.	Create a dictionary with 3 key-value pairs and print the dictionary.
+Example output: {'name': 'Alice', 'age': 25, 'city': 'NY'}
+2.	Add a new key-value pair to the dictionary and print the updated dictionary.
+Example output: {'name': 'Alice', 'age': 25, 'city': 'NY', 'job': 'Engineer'}
+3.	Update the value of an existing key and print the dictionary.
+Example output: {'name': 'Alice', 'age': 26, 'city': 'NY'}
+4.	Remove a key from the dictionary and print the updated dictionary.
+Example output: {'name': 'Alice', 'city': 'NY'}
+5.	Check if a key exists in the dictionary and print True or False.
+Example output: Key exists: True
+6.	Iterate over the dictionary and print all keys and values line by line.
+Example output:
+name: Alice
+age: 25
+city: NY
+7.	Merge two dictionaries and print the result.
+Example output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+8.	Count character frequency in a string using a dictionary and print the counts.
+Example output: {'a': 3, 'b': 1, 'c': 2}
+9.	Return all keys of a dictionary as a list and print it.
+Example output: ['name', 'age', 'city']
+10.	Sort a dictionary by values and print the sorted key-value pairs.
+Example output: [('age', 25), ('name', 'Alice'), ('city', 'NY')]
+⚖️ Python If...Else (8)
+1.	Write a function to check if a number is even or odd and print "Even" or "Odd".
+Example output: Even
+2.	Write a program to determine a grade from marks and print the grade (e.g., A, B, C, F).
+Example output: Grade: B
+3.	Check if a year is a leap year and print "Leap Year" or "Not a Leap Year".
+Example output: Leap Year
+4.	Find the largest of three numbers and print it.
+Example output: Largest number: 78
+5.	Check if a person is an adult (age ≥ 18) and print "Adult" or "Minor".
+Example output: Adult
+6.	Check if a number is positive, negative, or zero and print the result.
+Example output: Positive
+7.	Return and print the category of BMI based on a given BMI value.
+Example output: BMI Category: Overweight
+8.	Determine if a year is a century year (divisible by 100) and print "Century Year" or "Not a Century Year".
+Example output: Century Year
+________________________________________
+🧩 Python Match (3.10+) (8)
+1.	Use match to print the day of the week for a given number (1-7).
+Example output: Day: Wednesday
+2.	Match numeric grades to descriptions (90+ = Excellent, 80-89 = Good, etc.) and print the description.
+Example output: Grade Description: Good
+3.	Match country codes (e.g., "US", "IN") to country names and print the country.
+Example output: Country: India
+4.	Match a fruit name to its category (e.g., "apple" → "Fruit", "carrot" → "Vegetable") and print it.
+Example output: Category: Fruit
+5.	Match a number to its type: "Even", "Odd", or "Prime" and print the type.
+Example output: Number Type: Prime
+6.	Match math operation symbols (+, -, *, /) to their operation names and print the name.
+Example output: Operation: Addition
+7.	Use a default case to print "Unknown" if the input doesn’t match any case.
+Example output: Unknown
+8.	Use nested match statements to match a number and print detailed info (e.g., even/odd and positive/negative).
+Example output: Number is Positive and Even
+________________________________________
+🔁 Python While Loops (9)
+1.	Print numbers from 1 to 10 using a while loop.
+Example output: 1 2 3 4 5 6 7 8 9 10
+2.	Sum the digits of a given number and print the sum.
+Example output: Sum of digits: 15
+3.	Print the multiplication table for a given number (1 to 10).
+Example output:
+5 x 1 = 5
+5 x 2 = 10
+...
+4.	Count and print the number of digits in a number.
+Example output: Number of digits: 4
+5.	Reverse a number and print the reversed number.
+Example output: Reversed number: 4321
+6.	Generate and print the Fibonacci series up to N terms.
+Example output: 0 1 1 2 3 5 8
+7.	Find and print the factorial of a number.
+Example output: Factorial: 120
+8.	Check if a number is prime and print "Prime" or "Not Prime".
+Example output: Prime
+9.	Print all even numbers within a range (e.g., 1 to 20).
+Example output: 2 4 6 8 10 12 14 16 18 20
+________________________________________
+🔂 Python For Loops (9)
+1.	Print each element of a list on a new line.
+Example output:
+apple
+banana
+cherry
+2.	Count vowels in a string and print the total count.
+Example output: Vowel count: 5
+3.	Print the multiplication table of a number (1 to 10).
+Example output:
+6 x 1 = 6
+6 x 2 = 12
+...
+4.	Print the square of numbers from 1 to N.
+Example output:
+1 4 9 16 25
+5.	Calculate and print the sum of all elements in a list.
+Example output: Sum: 45
+6.	Find and print the maximum number in a list.
+Example output: Max: 99
+7.	Print each character of a string on a new line.
+Example output:
+H
+e
+l
+l
+o
+8.	Loop through a dictionary and print keys and values.
+Example output:
+name: John
+age: 30
+9.	Generate and print a star (*) pattern (e.g., 5 rows).
+Example output:
+*
+**
+***
+****
+*****
+🧭 Python Functions (10)
+1.	Write a function to check if a number is prime and print "Prime" or "Not Prime".
+Example output: Prime
+2.	Write a function to calculate the factorial of a number and print the result.
+Example output: Factorial: 120
+3.	Write a function that returns the nth Fibonacci number and print it.
+Example output: Fibonacci number 7: 13
+4.	Write a function to count vowels in a string and print the count.
+Example output: Vowels: 5
+5.	Write a function that returns the sum of all elements in a list and print it.
+Example output: Sum: 45
+6.	Write a function to find the maximum number in a list and print it.
+Example output: Max: 99
+7.	Write a function to generate and print the multiplication table for a given number.
+Example output:
+7 x 1 = 7
+7 x 2 = 14
+...
+8.	Write a function that checks if a string is a palindrome and print True or False.
+Example output: True
+9.	Write a function to return a reversed string and print it.
+Example output: olleH
+10.	Write a function to return the sum of digits of a number and print it.
+Example output: Sum of digits: 15
+________________________________________
+🐑 Python Lambda (8)
+1.	Write a lambda function that adds two numbers and print the result.
+Example output: Sum: 7
+2.	Write a lambda function that squares a number and print the result.
+Example output: Square: 16
+3.	Use lambda with map() to double each number in a list and print the resulting list.
+Example output: [2, 4, 6, 8]
+4.	Use lambda with filter() to filter even numbers from a list and print the filtered list.
+Example output: [2, 4, 6]
+5.	Sort a list of tuples by the second value using lambda and print the sorted list.
+Example output: [(‘a’, 1), (‘b’, 2), (‘c’, 3)]
+6.	Use lambda with reduce() to find the product of a list of numbers and print the product.
+Example output: Product: 24
+7.	Write a lambda that returns the maximum of two numbers and print the result.
+Example output: Max: 10
+8.	Use a lambda to sort a dictionary by values and print the sorted items.
+Example output: [('key1', 10), ('key2', 20), ('key3', 30)]
+________________________________________
+🔢 Python Arrays (8)
+1.	Create an array of integers and print all elements.
+Example output: [1, 2, 3, 4, 5]
+2.	Append an element to an array and print the updated array.
+Example output: [1, 2, 3, 4, 5, 6]
+3.	Remove an element from an array and print the updated array.
+Example output: [1, 2, 4, 5]
+4.	Reverse an array and print the reversed array.
+Example output: [5, 4, 3, 2, 1]
+5.	Count occurrences of a specific element in an array and print the count.
+Example output: Occurrences of 3: 2
+6.	Find and print the maximum and minimum elements in an array.
+Example output: Max: 9, Min: 1
+7.	Calculate and print the sum of all elements in an array.
+Example output: Sum: 25
+8.	Copy one array to another and print the copied array.
+Example output: [1, 2, 3, 4, 5]
+________________________________________
+🧱 Python OOP (Object-Oriented Programming) (10)
+1.	Create a class with attributes name and age, then create an object and print its attributes.
+Example output: Name: John, Age: 30
+2.	Use a constructor (__init__) to initialize attributes and print them.
+Example output: Name: Alice, Age: 25
+3.	Create a method to display information about the object and call it.
+Example output: Student Name: Bob, Age: 22
+4.	Create a class with a private variable and demonstrate access via a method.
+Example output: Private attribute value: 100
+5.	Create an object and call its method that prints a greeting message.
+Example output: Hello, my name is Sarah.
+6.	Create a class with default parameter values in the constructor and print the values.
+Example output: Name: Unknown, Age: 18
+7.	Create a method that returns a string representation of the object and print it.
+Example output: Person(Name: Tom, Age: 40)
+8.	Use __init__ to initialize multiple objects and print their attributes.
+Example output:
+Name: Mike, Age: 35
+Name: Anna, Age: 28
+9.	Override the __str__ method to return a formatted string and print the object.
+Example output: Employee(Name: Lucy, Position: Manager)
+10.	Use a class variable shared across instances and print its value from different objects.
+Example output:
+Company: ABC Corp
+Company: ABC Corp
+________________________________________
+🧍‍♂️ Python Classes/Objects (8)
+1.	Create a class and instantiate an object, then print the object’s attribute.
+Example output: Car brand: Toyota
+2.	Add an instance method that prints a message and call it.
+Example output: This is a car.
+3.	Use self to access attributes inside a method and print the attribute.
+Example output: Model: Camry
+4.	Update an attribute using a method and print the updated attribute.
+Example output: Updated color: Red
+5.	Create a class with a method to calculate and print the area of a rectangle.
+Example output: Area: 50
+6.	Define multiple objects from a class and print their attributes.
+Example output:
+Car1 brand: Honda
+Car2 brand: Ford
+7.	Write a method that returns a value and print the returned value.
+Example output: Speed: 80 km/h
+8.	Create a method that returns the sum of two attributes and print the result.
+Example output: Sum of attributes: 45
+________________________________________
+👪 Python Inheritance (8)
+1.	Create a base class and a child class, instantiate child object, and print both attributes.
+Example output:
+Base attribute: 10
+Child attribute: 20
+2.	Add methods to both base and child classes and call them.
+Example output:
+Base method called
+Child method called
+3.	Override a base class method in the child class and call it.
+Example output: Overridden method in child class
+4.	Use super() to call a parent method from a child class and print output.
+Example output: Parent method called from child
+5.	Demonstrate multilevel inheritance and print attributes from all classes.
+Example output:
+Grandparent attribute
+Parent attribute
+Child attribute
+6.	Demonstrate multiple inheritance by creating a class inheriting from two classes and call their methods.
+Example output:
+Method from class A
+Method from class B
+7.	Add extra properties to child class and print them.
+Example output: Child extra property: 100
+8.	Call a child method that uses a parent method internally and print the result.
+Example output: Child calling parent method
+________________________________________
+🔁 Python Iterators (8)
+1.	Use iter() and next() manually on a list and print each item.
+Example output:
+1
+2
+3
+2.	Create a custom iterator class that iterates over even numbers up to N and print them.
+Example output: 0 2 4 6 8
+3.	Create an iterator to loop through a string and print each character.
+Example output:
+H
+e
+l
+l
+o
+4.	Create an iterator for Fibonacci numbers and print first N numbers.
+Example output: 0 1 1 2 3 5 8
+5.	Use an iterator with a for loop to print numbers 1 to 5.
+Example output: 1 2 3 4 5
+6.	Raise StopIteration after N items and show how iteration stops.
+Example output: 1 2 3 (iteration stops)
+7.	Reuse an iterable in a loop and print the items twice.
+Example output:
+a b c
+a b c
+________________________________________
+🌀 Python Polymorphism (8)
+1.	Create multiple classes each with a speak() method and call it on different objects.
+Example output:
+Dog says: Woof
+Cat says: Meow
+2.	Use the same method name with different behavior in different classes and print results.
+Example output:
+Car starts
+Bike starts
+3.	Demonstrate method overriding by overriding a parent method in a child class and print output.
+Example output: Child method override
+4.	Create a function that takes any object and calls a common method, printing the result.
+Example output:
+Animal speaks
+Robot speaks
+5.	Use built-in polymorphic functions like len() and sum() on different data types and print results.
+Example output:
+Length of string: 5
+Sum of list: 15
+6.	Write a polymorphic method that behaves differently based on data type input and print output.
+Example output:
+Input is string
+Input is list
+7.	Define a method that behaves differently for list vs string input and print the result.
+Example output:
+String length: 5
+List length: 3
+8.	Use duck typing with class methods and print output from different classes with the same method.
+Example output:
+Bird flies
+Airplane flies
+
