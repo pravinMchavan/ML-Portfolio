@@ -140,13 +140,13 @@ ________________________________________
 •	Fractions, decimals, percentages ----Done
 •	Solving basic equations (e.g., 2x + 5 = 11)  --- Done
 •	Working with exponents and roots ---Done
-🟢 Basic Geometry & Trigonometry
-•	Understanding shapes, angles, and triangles
-•	Basic trigonometric functions (sine, cosine)
-•	Coordinate systems (x- and y-axis)
-🟢 Graph Reading & Interpretation
-•	Reading bar charts, line plots, and scatter plots
-•	Understanding x/y coordinates and slopes
+🟢 Basic Geometry & Trigonometry --- Done
+•	Understanding shapes, angles, and triangles ----Done
+•	Basic trigonometric functions (sine, cosine)   ---Done
+•	Coordinate systems (x- and y-axis)   ------Done
+🟢 Graph Reading & Interpretation  ------Done
+•	Reading bar charts, line plots, and scatter plots   ----Done
+•	Understanding x/y coordinates and slopes    ----Done
 ________________________________________
 🔷 Linear Algebra
 Core Concepts
