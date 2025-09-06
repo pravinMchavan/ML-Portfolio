@@ -58,7 +58,7 @@
 
 
 #--------List method-------------
-#1.add element in list
+#1.add element in list at last
 # fruits.append("Mango")
 # print(fruits)
 
@@ -126,11 +126,11 @@
 #10. pop with index value
 # numbers = [10, 20, 30, 40]
 # popped = numbers.pop(2)
-# print(popped) #remove and return an item from a list.
+# print(popped) #remove and return an item from a list.  #remove
 # print(numbers)
 
 #pop with default
-# last = numbers.pop() #it pop last element from list
+# last = numbers.pop() #it pop last element from list 
 # print(last)
 # print(numbers)
 
