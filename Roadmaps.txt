@@ -8,7 +8,7 @@ Key Libraries to Start Learning (if not already):
 •	numpy – numerical operations (arrays, math)
 •	pandas – data manipulation (DataFrames, CSVs)
 •	matplotlib & seaborn – data visualization
-📘 Resource: Kaggle Python Course
+📘 Resource: Kaggle Python Course  best resourec for bandas and munpy
 ________________________________________
 🔷 Phase 2: Core ML Concepts + First Models
 💼 Libraries:
