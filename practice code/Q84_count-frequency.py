@@ -1,12 +1,14 @@
 # 8.	Count character frequency in a string using a dictionary and print the counts.
 
 def counting():
-    student = {'name':'pravin', 'std':'9', 'school':'ckt'}
-     = 0
+    test = "Hello world"
+    count = {}
 
-    for i in student['name']:
-        
-    return count
-print(counting())
-
-
+    for char in test:
+        if char in count:
+            count[char] +=1
+        else:
+            count[char] = 1
+    for char , freq in count.items():
+        print(f"{char}, : {freq}")
+counting()
