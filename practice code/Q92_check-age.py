@@ -4,5 +4,5 @@ def check(age):
     if age >=18:
         print("Adult")
     else:
-        print("Minnor")
+        print("Minor")
 check(18)
