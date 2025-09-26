@@ -12,3 +12,16 @@ def check(num):
     print("prime")
             
 check(2)
+
+
+#alternative 
+
+# def check(num):
+#     if num < 2:
+#         print("Not Prime")
+#         return
+#     for i in range(2, int(num ** 0.5) + 1):
+#         if num % i == 0:
+#             print("Not Prime")
+#             return
+#     print("Prime")
