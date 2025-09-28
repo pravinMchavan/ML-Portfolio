@@ -3,4 +3,4 @@
 def name(name, country):
     print(f"my name is {name} and my country is {country}")
 
-name("Pravin", "India")
+name("Pravin", "India")f
